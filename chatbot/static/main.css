@@ -1,0 +1,41 @@
+.dialogbox {
+  color: #fff;
+  border-radius: 8px;
+  font-size: x-large;
+  width: auto;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  background-color: #799ecf;
+}
+
+.user {
+  float: left;
+  clear: both;
+}
+
+.bot {
+  float: right;
+  clear: both;
+}
+
+#user_query {
+  width: 100%;
+}
+
+#botbox {
+  flex: 0.9;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+#botform {
+  flex: 0.1;
+}
+
+.container {
+  border: 2px solid rgb(230, 224, 224);
+  height: 700px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
